@@ -1,0 +1,36 @@
+.menu-container {
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  padding: 16px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin: 4px 0;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #F3F4F6;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #F3F4F6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.menu-icon svg {
+  color: var(--primary);
+}
+
